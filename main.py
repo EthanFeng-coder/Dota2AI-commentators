@@ -21,7 +21,7 @@ tts_thread = None
 base64Frames = []  # This will store the base64-encoded frames
 capture_thread = None  # This will be the handle for our capturing thread
 is_capturing = False  # This flag will control the start/stop of capturing
-api_key ="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"
+api_key ="your api key"
 client = OpenAI(api_key= api_key)
 lock = threading.Lock()
 is_audio_playing = False
